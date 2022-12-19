@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones en JavaScript</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <nav id="menu">
+        <ul class="menu-list">
+            <li id="menu-home"><a href="../index.html">Home</a> </li>
+            <li id="menu-container"><a href="#">Diversión</a> </li>
+        </ul>
+    </nav>
+    <div>
+        <img class="imgUno" src="../assets/img/title.png" alt="Logo">
+        <h1>Haz click en Tony para probar su brazo</h1>
+    </div>
+
+    <section>
+        <img class="tony" id="borde" src="../assets/img/stark.jpg" width="405vw" alt="tony" onclick="borde()">
+    </section>
+    <section>
+       <div>
+        <h2>Hola, esta es mi tienda de stickers, puedes llevarlos contigo,<br> pero, <br> si tomas mas de 10 te las
+            verás conmigo!</h2>
+        <div class="section">
+            <div class="tres">
+                <img class="dos" src="../assets/img/1.jpg" alt="1">
+                <input class="cantidad" type="text" id="cantidad1">
+            </div>
+            <div class="tres">
+                <img class="dos" src="../assets/img/2.png" alt="2">
+                <input class="cantidad" type="text" id="cantidad2">
+            </div>
+            <div class="tres">
+                <img class="dos" src="../assets/img/3.jpg" alt="3">
+                <input class="cantidad" type="text" id="cantidad3">
+            </div></div>
+            <div class="boton">
+                <h2 id="diez"></h2>
+                <button class="button" onclick="verificar()">Verificar</button>
+            </div>
+    </section>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

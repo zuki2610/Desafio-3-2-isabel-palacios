@@ -1,0 +1,142 @@
+* {
+    font-family: 'Marvel', sans-serif;
+    background-color: black;
+}
+
+ul {
+    margin-top: 7vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.ingresar {
+    font-size: 20px;
+    margin-left: 40%;
+    margin-bottom: 8vh;
+    width: 25vw;
+    }
+
+a {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    color: #706d6d;
+    text-decoration: none;
+    border: 2px inset rgb(122, 167, 177);
+    border-radius: 7px;
+    background-color: rgb(180, 255, 255);
+}
+
+.lock {
+    margin-top: 5vh;
+    margin-left: 34vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-bottom: 9vh;
+}
+
+select {
+    color: aliceblue;
+    height: 25px;
+    width: 10vw;
+    background-color: rgb(57, 57, 57);
+    box-shadow: 0vh 0vh 5vh 0vh #c8c8c8;
+    font-size: 20px;
+}
+
+option {
+    color: #bebebe;
+    background-color: rgb(57, 57, 57);
+    font-size: 20px;
+}
+
+h1 {
+    color: #bebebe;
+    margin-left: 25vw;
+    font-size: 52px;
+
+}
+
+.tony {
+    margin-left: 40vw;
+}
+
+#borde {
+    border: 0;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    padding: 3vh;
+    margin-left: 32vw;
+}
+
+.imgUno {
+    margin: 0;
+    width: 45vw;
+    margin-left: 27vw;
+}
+
+h2 {
+    color: #bebebe;
+    font-size: 52px;
+    text-align: center;
+}
+
+p {
+    color: #bebebe;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+.section {
+    margin-left: 13vw;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+input {
+    color: aliceblue;
+    height: 25px;
+    width: 10vw;
+    box-shadow: 0vh 0vh 5vh 0vh #c8c8c8;
+    background-color: rgb(57, 57, 57);
+}
+
+.dos {
+    margin: 10vh;
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+}
+
+.cantidad {
+    margin-left: 7vw;
+}
+
+button {
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(57, 57, 57);
+    color: aliceblue;
+    box-shadow: 0vh 0vh 5vh 0vh #c8c8c8;
+    margin-left: 46.5%;
+}
+.button {
+    margin-top: 8vh;
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(57, 57, 57);
+    color: aliceblue;
+    box-shadow: 0vh 0vh 5vh 0vh #c8c8c8;
+    margin-left: 45.5%;
+}
+.column {
+    display: flex;
+    flex-direction: column;  
+}
